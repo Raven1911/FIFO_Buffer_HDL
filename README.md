@@ -25,9 +25,7 @@
 
 * FIFO HDL Implementation
 > * Hierarchy module:  
-> |--fifo_unit.v  
->>    |--fifo_ctrl.v  
->>    |--register_file.v  
+> <pre> ```plaintext |--fifo_unit.v |--fifo_ctrl.v |--register_file.v ``` </pre>
 
 > * Block diagram
 > ![alt text](image/fifo7.png)
