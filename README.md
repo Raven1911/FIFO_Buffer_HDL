@@ -18,4 +18,4 @@
 > ![alt text](image/fifo4.png) 
 
 > * Read
-> ![alt text](image/fifo3.png) 
+> ![alt text](image/fifo5.png) 
