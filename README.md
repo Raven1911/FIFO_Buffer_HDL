@@ -22,3 +22,10 @@
 
 > * Full & Empty
 > ![alt text](image/fifo6.png)
+
+* FIFO HDL Implementation
+> * Hierarchy module:
+
+
+> * Diagaram block
+> ![alt text](image/fifo7.png)
