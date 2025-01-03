@@ -24,7 +24,7 @@
 > ![alt text](image/fifo6.png)
 
 * FIFO HDL Implementation
-> * Hierarchy module:
+> * Hierarchy module:  
 > |--fifo_unit.v  
 >   |--fifo_ctrl.v  
 >   |--register_file.v  
