@@ -21,4 +21,4 @@
 > ![alt text](image/fifo5.png)
 
 > * Full & Empty
-> ![alt text](image/fifo5.png)
+> ![alt text](image/fifo6.png)
