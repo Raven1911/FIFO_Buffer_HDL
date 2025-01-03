@@ -18,4 +18,7 @@
 > ![alt text](image/fifo4.png) 
 
 > * Read
-> ![alt text](image/fifo5.png) 
+> ![alt text](image/fifo5.png)
+
+> * Full & Empty
+> ![alt text](image/fifo5.png)
