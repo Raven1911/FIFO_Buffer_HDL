@@ -3,5 +3,5 @@
 # CONCEPT
 
 * FIFO
-> First in first out
+> * First in first out
 > ![alt text](image/fifo0.png)
