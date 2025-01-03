@@ -29,8 +29,8 @@
 > * Hierarchy module: 
 > ``` 
 > fifo_unit.v  
->   ├──fifo_ctrl.v  
->   └──register_file.v  
+>   ├── fifo_ctrl.v  
+>   └── register_file.v  
 > ```
 
     
