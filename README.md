@@ -9,7 +9,7 @@
 > * Configuration
 > ![alt text](image/fifo1.png)
 >
-S
+
 * FIFO Circular Queue Implementation
 > * Initial (empty)
 > ![alt text](image/fifo2.png)  
