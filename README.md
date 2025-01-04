@@ -24,6 +24,19 @@
 > * Full & Empty
 > ![alt text](image/fifo6.png)
 >
+> ``` 
+> Difference between full and empty:
+>   ├── Case 1(Only Read): If r_ptr_next == w_ptr => positive empty signal
+>   └── Case 2(Only Write) If W_ptr_next == r_ptr => positive full signal
+>   └── Case 3(Read & Write) 
+>            if (positive empty) {
+>                w_ptr_next = w_ptr;
+>                r_ptr_next = r_ptr;}
+>            else {
+>                w_ptr_next = w_ptr + 1;
+>                r_ptr_next = r_ptr + 1;
+>            }
+> ```
 
 * FIFO HDL Implementation
 > * Hierarchy module: 
