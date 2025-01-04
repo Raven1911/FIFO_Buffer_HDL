@@ -16,7 +16,6 @@
 >
 > * Write
 > ![alt text](image/fifo3.png)
->
 > ![alt text](image/fifo4.png)
 >
 > * Read
@@ -52,3 +51,5 @@
 > ![alt text](image/fifo10.png)
 
 # SIMULATION
+
+> ![alt text](image/fifo12.png)
