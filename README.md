@@ -16,7 +16,6 @@
 >
 > * Write
 > ![alt text](image/fifo3.png)
-> 
 > ![alt text](image/fifo4.png) 
 >
 > * Read
@@ -42,6 +41,8 @@
 
 # PERFORMANCE
 * Project Summary
+> ![alt text](image/fifo11.png)
+>
 > ![alt text](image/fifo8.png)
 >
 * Timing
