@@ -15,7 +15,8 @@
 > ![alt text](image/fifo2.png)  
 >
 > * Write
-> ![alt text](image/fifo3.png) 
+> ![alt text](image/fifo3.png)
+> 
 > ![alt text](image/fifo4.png) 
 >
 > * Read
@@ -38,5 +39,14 @@
 > * Block diagram
 > ![alt text](image/fifo7.png)
 >
+
+# PERFORMANCE
+* Project Summary
+> ![alt text](image/fifo8.png)
+>
+* Timing
+> ![alt text](image/fifo9.png)
+>
+> ![alt text](image/fifo10.png)
 
 # SIMULATION
