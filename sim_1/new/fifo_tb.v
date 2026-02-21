@@ -33,6 +33,7 @@ module fifo_tb();
 
     wire [DATA_WIDTH - 1 : 0] r_data; //reading data
     wire full, empty;
+    wire [ADDR_WIDTH - 1 : 0] wr_ptr, rd_ptr;
 
     //instantiate module under test
     fifo_unit #(.ADDR_WIDTH(ADDR_WIDTH), .DATA_WIDTH(DATA_WIDTH)) uut(
@@ -40,7 +41,8 @@ module fifo_tb();
         .reset_n(reset_n),
         .wr(wr), 
         .rd(rd),
-
+        .wr_ptr(wr_ptr),
+        .rd_ptr(rd_ptr),
         .w_data(w_data),
         .r_data(r_data),
 

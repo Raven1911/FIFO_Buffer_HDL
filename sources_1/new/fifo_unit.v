@@ -23,6 +23,7 @@
 module fifo_unit #(parameter ADDR_WIDTH = 3, DATA_WIDTH = 8)(
     input clk, reset_n,
     input wr, rd,
+    output [ADDR_WIDTH - 1 : 0] wr_ptr, rd_ptr,
 
     input [DATA_WIDTH - 1 : 0] w_data, //writing data
     output [DATA_WIDTH - 1 : 0] r_data, //reading data
@@ -62,5 +63,9 @@ module fifo_unit #(parameter ADDR_WIDTH = 3, DATA_WIDTH = 8)(
             .w_addr(w_addr),
             .r_addr(r_addr)
         );
+
+    assign wr_ptr = w_addr;
+    assign rd_ptr = r_addr;
+    
 
 endmodule
